@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Ubuntu+Mono&display=swap');
+
+body {
+	margin: 0;
+	background-color: #2B2A38;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+.left {
+	float: left;
+	padding: 10px 0px 0px 15px;
+}
+
+.left h1 {
+	color: white;
+	font-weight: normal;
+}
+
+.right {
+	float: right;
+}
+
+.right a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+
+.right a:hover {
+	background-color: #32CD32;
+}
+
+#profileIcon {
+	padding: 10px 15px 5px 15px;
+}
+
+#init, #python_row, #javascript_row, #html_row {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 75px 0px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+#init {
+	background-color: #FFE3E3;
+}
+
+#python_row {
+	background-color: #DDFFAA;
+}
+
+#javascript_row {
+	background-color: #D9ECEC;
+}
+
+#html_row {
+	background-color: #FFF5A5;
+}
+
+.col, .col-prof {
+	padding: 3%;
+}
+
+.col {
+	text-align: center;
+}
+
+.col-left h1 {
+	font-size: 60px;
+    font-weight: bold;
+}
+
+.col-left h3 {
+	font-size: 20px;
+}
+
+.col-left h4 {
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.col-left h5 {
+	margin: 10px;
+	font-size: 15px;
+}
+
+.col-right {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+hr {
+	margin: 0;
+	border: 5px solid black;
+}
+
+.rowWhite, .rowDark {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 75px 0px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.rowWhite {
+	background-color: white;
+}
+
+.rowDark {
+	color: white;
+}
+
+.container {
+	padding: 50px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 15px #96C8FA;
+}
+
+.desc {
+	width: 40%;
+}
+
+#photo, #image {
+	border-radius: 50%;
+}
+
+#prof-photo {
+	cursor: pointer;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#profile {
+	display: none;
+}
+
+.box {
+	width: 200px;
+	padding: 2% 3%;
+}
+
+.box a {
+	text-decoration: none;
+}
+
+.card {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+#card-py {
+	background-color: #45CC45;
+}
+
+#card-js {
+	background-color: #5BB1D9;
+}
+
+#card-html {
+	background-color: #FFF080;
+}
+
+.card h2 {
+	font-size: 30px;
+	font-style: bold;
+}
+
+.signin {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 150px 0px;
+	position: relative;
+	justify-content: center;
+}
+
+.signin::after {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	z-index: -1;
+	filter: blur(5px);
+	position: absolute;
+	background-image: url("../images/background.png");
+}
+
+.signin a {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#login, #register, #delete {
+	width: 25%;
+	padding: 20px;
+	font-size: 15px;
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 20px 20px 10px black;
+}
+
+#login input, #register input, #delete input {
+	padding: 7px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 2px solid gray;
+	font-family: 'Inter', sans-serif;
+}
+
+#username, #userid, #checkid, #nome, #data, #e_mail, #usuario {
+	width: 94.5%;
+	margin: 5px 0px 10px 0px;
+}
+
+#submit, #deletar {
+	width: 75%;
+	cursor: pointer;
+	margin: 25px 12.5%;
+}
+
+.other {
+	display: flex;
+	justify-content: space-between;
+}
+
+#info {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 50px 100px;
+	align-items: flex-start;
+	background-color: white;
+	justify-content: flex-start;
+	font-family: 'Inter', sans-serif;
+}
+
+#info input, textarea {
+	padding: 7px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid gray;
+	font-family: 'Inter', sans-serif;
+}
+
+#info textarea {
+	resize: none;
+}
+
+#name, #desc, #date, #email {
+	width: 97.5%;
+	margin: 5px 0px 10px 0px;
+}
+
+#change {
+	width: 50%;
+	cursor: pointer;
+	margin: 25px 25% 0px 25%;
+}
+
+#change:hover, #submit:hover, #deletar:hover {
+	color: white;
+	background-color: gray;
+}
+
+.page {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	background-color: white;
+	justify-content: flex-start;
+	font-family: 'Inter', sans-serif;
+}
+
+#edit {
+	left: 0;
+	bottom: 0;
+	width: 50px;
+	padding: 7px;
+	display: flex;
+	position: absolute;
+	border-radius: 7px;
+	justify-content: center;
+	background-color: gray;
+	margin: 0px 0px 15px 15px;
+}
+
+#edit p {
+	margin: 0;
+	color: white;
+	font-size: small;
+	padding-left: 5px;
+}
+
+#userID {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+    justify-content: space-between;
+}
+
+#userID input {
+	margin-right: 5px;
+}
+
+#userID button {
+	padding: 0;
+	border: none;
+	background: none;
+	margin-left: 5px;
+}
+
+#userID button:hover {
+	cursor: pointer;
+}
+
+#hint {
+	color: white;
+	margin-top: 10px;
+}
+
+#details {
+	width: 70%;
+}
+
+#title {
+	font-weight: normal;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid gray;
+}
+
+.tabs {
+	width: 15%;
+	text-align: center;
+	background-color: #EFEFEF;
+}
+
+.tabs h3 {
+	padding: 10px;
+	font-weight: normal;
+	background-color: #9F9F9F;
+}
+
+.tabs ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.tabs button {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #9F9F9F;
+	font-family: 'Inter', sans-serif;
+}
+
+.tabs button:hover {
+	cursor: pointer;
+	background-color: #CFCFCF;
+}
+
+.tabs p {
+	font-size: 14px;
+	margin-left: 5%;
+}
+
+.content {
+	width: 85%;
+	margin: 75px 50px;
+}
+
+.content h1, .content h2 {
+	font-weight: normal;
+}
+
+.content img {
+	padding: 15px;
+	box-shadow: 5px 5px 15px gray;
+}
+
+.example {
+	width: 75%;
+	padding: 0px 15px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	box-shadow: 5px 5px 15px gray;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.code {
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.indent {
+	margin-left: 40px;
+}
+
+.var {
+	color: deepskyblue;
+}
+
+.command {
+	color: mediumpurple;
+}
+
+.comp {
+	color: mediumblue;
+}
+
+.title {
+	color: dodgerblue;
+}
+
+.func {
+	color: goldenrod;
+}
+
+.chav {
+	color: gold;
+}
+
+.str {
+	color: indianred;
+}
+
+.num {
+	color: forestgreen;
+}
+
+footer h6 {
+	color: white;
+	margin-left: 10%;
+	margin-bottom: 1%;
+}
+
+.ref {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.ref h2 {
+	padding: 3%;
+	color: white;
+}
+
+.ref li {
+	color: white;
+}
+
+.ref a {
+	color: deepskyblue;
+	text-decoration: none;
+}

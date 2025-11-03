@@ -1,0 +1,21 @@
+<%- include('./partials/header') %>
+	<div class="signin">
+		<form id="delete" action="/3" method="post">
+			<label for="username" form="delete"> Nome de Usuário: </label><br>
+            <input id="username" name="username" form="delete" type="text" placeholder="Ex.: UnknownUser" required><br>
+
+            <label for="userid" form="delete"> ID do Usuário: </label><br>
+            <input id="userid" name="userid" form="delete" type="password" placeholder="Ex.: 9999" required><br>
+
+            <label for="checkid" form="delete"> Confirme seu ID: </label><br>
+            <input id="checkid" name="checkid" form="delete" type="password" placeholder="Ex.: 9999" required><br>
+
+            <input id="deletar" form="delete" type="submit" value="Deletar conta"><br>
+
+            <div class="other">
+                <a href="/login"> Fazer login </a>
+                <a href="/register"> Cadastrar-se </a>
+            </div>
+		</form>
+	</div>
+<%- include('./partials/footer') %>

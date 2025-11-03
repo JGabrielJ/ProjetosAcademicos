@@ -1,0 +1,24 @@
+<%- include('./partials/header') %>
+	<div class="signin">
+		<form id="register" action="/1" method="post">
+			<label for="nome" form="register"> Nome: </label><br>
+            <input id="nome" name="nome" form="register" type="text" placeholder="Ex.: João Gomes"><br>
+
+            <label for="data" form="register"> Data de Nascimento: </label><br>
+            <input id="data" name="data" form="register" type="date"><br>
+
+            <label for="e_mail" form="register"> Email: </label><br>
+            <input id="e_mail" name="e_mail" form="register" type="email" placeholder="Ex.: joao.gomes29@gmail.com"><br>
+
+            <label for="usuario" form="register"> Nome de Usuário: </label><br>
+            <input id="usuario" name="usuario" form="register" type="text" placeholder="Ex.: JoaoGomesRN" required><br>
+
+            <input id="submit" name="submit" form="register" type="submit" value="Cadastrar-se"><br>
+
+            <div class="other">
+                <a href="/login"> Fazer login </a>
+                <a href="/delete"> Deletar conta </a>
+            </div>
+		</form>
+	</div>
+<%- include('./partials/footer') %>

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'StrangerThings-Regular';
+    src: url('StrangerThings-Regular.ttf') format('truetype');
+}
+
+html {
+    font-size: 10px;
+    font-family: 'StrangerThings-Regular', Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+
+body {
+    background: linear-gradient(#3b3b3b, #2b2b2b);
+    min-height: 100vh;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'StrangerThings-Regular', Arial, Helvetica, sans-serif;
+    color: yellowgreen;
+}
+
+.reprodutor {
+    background: linear-gradient(#3b3b3b, #2b2b2b);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+#listaMusicas {
+    font-family: 'StrangerThings-Regular', Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+img {
+    width: 50%;
+}
+
+#controles {
+    border: 1px lightslategray solid;
+    border-radius: 1rem;
+    padding: 1.6rem;
+}
+
+.tocarPausar > span {
+    cursor: pointer;
+    color: lightslategray;
+    font-size: 6rem;
+    padding: 2rem;
+}
+
+#musicaAtual {
+    overflow: hidden;
+}
+
+#listaMusicas {
+    text-align: left;
+}
+
+li {
+    cursor: pointer;
+    padding: 1.5rem;
+}
+
+li:hover {
+    background: blue;
+}
+
+progress {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+a {
+    color: whitesmoke;
+}
+
+@media (min-width: 800px) {
+    body {
+      max-width: 60vw;
+      font-size: 1.8rem;
+    }
+}
+
+@keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1);
+    }
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 0.4s;
+}

@@ -1,0 +1,18 @@
+<%- include('./partials/header') %>
+	<div class="signin">
+		<form id="login" action="/0", method="post">
+			<label for="username" form="login"> Nome de Usuário: </label><br>
+			<input id="username" name="username" form="login" type="text" placeholder="Ex.: UnknownUser" required><br>
+
+			<label for="userid" form="login"> ID do Usuário: </label><br>
+			<input id="userid" name="userid" form="login" type="password" placeholder="Ex.: 9999" required><br>
+
+			<input id="submit" form="login" type="submit" value="Fazer login"><br>
+
+			<div class="other">
+				<a href="/register"> Cadastrar-se </a>
+				<a href="/delete"> Deletar conta </a>
+			</div>
+		</form>
+	</div>
+<%- include('./partials/footer') %>

@@ -1,0 +1,42 @@
+<%- include('./partials/header') %>
+	<div id="info">
+		<div class="col-prof" id="details">
+			<h2 id="title"> Informações do Perfil </h2>
+			<form id="dados" action="/2?id=<%= user.id %>" method="post" enctype="multipart/form-data">
+				<label for="name" form="dados"> Nome: </label><br>
+				<input id="name" name="name" form="dados" type="text" value="<%= user.name %>" placeholder="Digite seu nome..."><br>
+
+				<label for="desc" form="dados"> Descrição: </label><br>
+				<textarea id="desc" name="desc" form="dados" rows="5" maxlength="500" placeholder="Escreva algo sobre você..."><%= user.description %></textarea><br>
+
+				<label for="date" form="dados"> Data de Nascimento: </label><br>
+				<input id="date" name="date" form="dados" type="date" value="<%= user.birthday %>"><br>
+
+				<label for="email" form="dados"> E-mail </label><br>
+				<input id="email" name="email" form="dados" type="email" value="<%= user.email %>" placeholder="username67@gmail.com"><br>
+
+				<input id="change" form="dados" type="submit" value="Alterar Dados">
+			</form>
+		</div>
+
+		<div class="col-prof" id="basic">
+			<label id="prof-photo" for="profile" form="dados">
+				<img id="image" src="<%= user.image %>" alt="Profile Photo" width="256px" height="256px">
+				<span id="edit">
+					<img src="./images/pencil.png" alt="Pencil">
+					<p> Editar </p>
+				</span>
+			</label>
+			<input id="profile" name="profile" form="dados" type="file"><br>
+
+			<label for="userName" form="dados"> Nome de Usuário: </label><br>
+			<div id="userID">
+				<input id="userName" name="userName" form="dados" type="text" value="<%= user.username %>" readonly>
+				<button type="button"><img id="showHide" src="./images/show.png" alt="Show" onclick="showHide('<%= user.username %>', '<%= user.id %>')"></button>
+			</div>
+			<p id="hint"> Clique no olho para ver seu ID... </p>
+		</div>
+	</div>
+
+	<script src="./javascripts/prof.js"></script>
+<%- include('./partials/footer') %>
