@@ -88,7 +88,7 @@ while True:
     # Para enviar os dados inseridos na pesquisa
     if janela == janela0 and evento == 'Enviar Dados':
         # Para ir à próxima janela
-        if valor['username'] == 'equipecosmo12345': # type: ignore
+        if valor['username'] == 'equipecosmo12345':
             janela1 = janela_admin()
             janela0.hide()
         # Para finalizar o programa
@@ -101,11 +101,11 @@ while True:
     # Para exibir os resultados
     if janela == janela1 and evento == 'Analisar Dados':
         # Inserindo as notas em uma lista e convertendo todos os valores para inteiro
-        notas = [int(valor['nota1']), int(valor['nota2']), int(valor['nota3']), int(valor['nota4']), # type: ignore
-        int(valor['nota5']), int(valor['nota6']), int(valor['nota7']), int(valor['nota8']), # type: ignore
-        int(valor['nota9']), int(valor['nota10']), int(valor['nota11']), int(valor['nota12']), # type: ignore
-        int(valor['nota13']), int(valor['nota14']), int(valor['nota15']), int(valor['nota16']), # type: ignore
-        int(valor['nota17']), int(valor['nota18']), int(valor['nota19']), int(valor['nota20'])] # type: ignore
+        notas = [int(valor['nota1']), int(valor['nota2']), int(valor['nota3']), int(valor['nota4']),
+        int(valor['nota5']), int(valor['nota6']), int(valor['nota7']), int(valor['nota8']),
+        int(valor['nota9']), int(valor['nota10']), int(valor['nota11']), int(valor['nota12']),
+        int(valor['nota13']), int(valor['nota14']), int(valor['nota15']), int(valor['nota16']),
+        int(valor['nota17']), int(valor['nota18']), int(valor['nota19']), int(valor['nota20'])]
         # notas = [3, 8, 6, 2, 7, 10, 8, 5, 7, 4, 2, 6, 5, 5, 6, 7, 6, 5, 5, 7]
 
         # Exibindo os resultados
