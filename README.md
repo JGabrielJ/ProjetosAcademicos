@@ -20,7 +20,7 @@ As aplicações se dividem em duas "categorias" diferentes, referenciadas logo a
 1. [**Pesquisa de Saúde da Equipe Cosmo (Python / PySimpleGUI)**](./PesquisaCosmos/): Introdução à Programação e Interface Gráfica Simples;
 2. [**Reprodutor de Música (HTML5 / CSS3 / JavaScript)**](./ReprodutorMusica/): Fundamentos do Desenvolvimento Web e HTML DOM (Document Object Model);
 3. [**Simulador de Biblioteca (Python / PySimpleGUI)**](./BibliotecaGUI/): Iniciação à Programação Orientada a Objetos (POO), Manuseamento Básico de Dados com Arquivos `.txt` e Interface de Usuário (UI);
-4. [**Práticas com Banco de Dados (SQLite3 / Knex / Node.js)**](./DatabasePractices/): Conceitos de Bancos de Dados Relacionais (na teoria e na prática);
+4. [**Práticas com Banco de Dados (SQLite3 / Knex.js)**](./DatabasePractices/): Conceitos de Bancos de Dados Relacionais (na teoria e na prática);
 5. [**Horizonte Financeiro (Swift / SwiftUI)**](./HorizonteFinanceiro/): Didática e Conscientização acerca do Gerenciamento de Finanças e Desenvolvimento de Aplicações para iOS com Xcode;
 6. [**Loja de Jogos Virtual - Protótipo (Kotlin / Android Studio)**](./PrototypeGamingStore/): Noções Básicas da Construção de Aplicativos Móveis para Android;
 7. [**Octo Team's Game Store (Kotlin / Android Studio)**](./OctoGameStore/): Simulação de uma Loja Virtual Real e Aplicação de Metodologias Ágeis no GitHub (Milestones);
