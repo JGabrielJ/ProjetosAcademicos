@@ -1,8 +1,6 @@
 # 👨‍🎓 Projetos Acadêmicos (Portfólio de Fundamentos de Programação)
 
 ![GitHub License](https://img.shields.io/github/license/JGabrielJ/ProjetosAcademicos?style=for-the-badge&labelColor=indigo&color=maroon)
-![GitHub last commit](https://img.shields.io/github/last-commit/JGabrielJ/ProjetosAcademicos?display_timestamp=committer&style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/JGabrielJ/ProjetosAcademicos?style=for-the-badge)
 ![GitHub repo directory count](https://img.shields.io/github/directory-file-count/JGabrielJ/ProjetosAcademicos?type=dir&style=for-the-badge&label=directories)
 ![GitHub repo size](https://img.shields.io/github/repo-size/JGabrielJ/ProjetosAcademicos?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/JGabrielJ/ProjetosAcademicos?style=for-the-badge)
